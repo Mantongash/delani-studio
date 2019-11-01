@@ -38,6 +38,15 @@ h2 {
   top: 93vh;
   left: 50%;
 }
+
+/* About section */
 .about {
   height: 40vh;
+}
+
+/* Services section */
+.services {
+  background: url("../images/backgrounds/s_image.jpg") center center/cover;
+  height: 60vh;
+  color: #fff;
 }
