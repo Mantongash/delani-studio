@@ -11,6 +11,7 @@
     center/cover;
   height: 100vh;
   color: #fff;
+  width: 100%;
   text-transform: uppercase;
   position: relative;
 }
@@ -29,6 +30,7 @@ h1 span {
 
 h2 {
   font-size: 1rem;
+  text-align: center;
 }
 
 .mouse-click {
