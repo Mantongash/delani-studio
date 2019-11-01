@@ -12,6 +12,7 @@
   height: 100vh;
   color: #fff;
   text-transform: uppercase;
+  position: relative;
 }
 
 /* Heading styling */
@@ -28,4 +29,10 @@ h1 span {
 
 h2 {
   font-size: 1rem;
+}
+
+.mouse-click {
+  position: absolute;
+  top: 93vh;
+  left: 50%;
 }
