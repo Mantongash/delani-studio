@@ -14,7 +14,7 @@
   text-transform: uppercase;
 }
 
-/* H1 styling */
+/* Heading styling */
 
 h1 {
   text-align: center;
@@ -24,4 +24,8 @@ h1 span {
   display: block;
   font-size: 3rem;
   margin-top: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
 }
