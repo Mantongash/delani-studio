@@ -10,4 +10,18 @@
   background: url("../images/backgrounds/h_img.jpg") no-repeat center
     center/cover;
   height: 100vh;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* H1 styling */
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+h1 span {
+  display: block;
+  font-size: 3rem;
+  margin-top: 2rem;
 }
