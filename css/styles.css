@@ -50,3 +50,19 @@ h2 {
   height: 60vh;
   color: #fff;
 }
+
+/* Contact styling */
+.contact {
+  background: url("../images/backgrounds/c_image.jpg");
+}
+
+form {
+  width: 40%;
+  margin: 0 auto;
+  background: transparent;
+}
+
+input[type="text"],
+input[type="email"] {
+  display: inline;
+}
