@@ -57,12 +57,29 @@ h2 {
 }
 
 form {
-  width: 40%;
+  width: 70%;
   margin: 0 auto;
-  background: transparent;
 }
 
-input[type="text"],
-input[type="email"] {
-  display: inline;
+input {
+  display: block;
+  width: 100%;
+}
+
+#inputName,
+#inputEmail,
+#inputMessage {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#inputName::placeholder,
+#inputEmail::placeholder,
+#inputMessage::placeholder {
+  color: #fff;
+}
+
+textarea {
+  margin-top: 2em;
 }
