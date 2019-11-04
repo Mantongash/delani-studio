@@ -18,14 +18,14 @@ A modern web browser.
 
 ##### Setup Instructions and Installation
 
-- To view this website online, just visit the live link [here]().
+- To view this website online, just visit the live link [here](https://mantongash.github.io/delani-studio/).
 - To use the website online, clone it to a specific location in your computer using `git clone https://github.com/Mantongash/delani-studio.git`. Then move to the root directory of the cloned folder and open `index.html`.
 
 ## Known Bugs
 
 On successfully completing the contact form, it should give an alert with a green color, it is currently giving an alert in red color.
 
-##### Link to Live Site : [https://yomzsamora.github.io/Akan-Names/](https://yomzsamora.github.io/Akan-Names/)
+##### Link to Live Site : [https://mantongash.github.io/delani-studio/](https://mantongash.github.io/delani-studio/)
 
 ### License
 
