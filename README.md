@@ -25,6 +25,10 @@ A modern web browser.
 
 On successfully completing the contact form, it should give an alert with a green color, it is currently giving an alert in red color.
 
+## Contacts
+
+In case of any questions or concerns, don't hesitate to contact me on ngash.anto@gmail.com
+
 ##### Link to Live Site : [https://mantongash.github.io/delani-studio/](https://mantongash.github.io/delani-studio/)
 
 ### License
