@@ -94,5 +94,30 @@ $(document).ready(function() {
     $(".description-8").hide(1000);
   });
   // Form validation
-  $();
+  $("form").submit(function(event) {
+    event.preventDefault();
+    let name = $("#inputName").val();
+    let email = $("#inputEmail").val();
+    let message = $("#inputMessage").val();
+
+    if (name == "") {
+      $(".result")
+        .html("Please enter your name")
+        .addClass("alert alert-danger");
+    } else if (email == "") {
+      $(".result")
+        .html("Please enter your email")
+        .addClass("alert alert-danger");
+    } else if (message == "") {
+      $(".result")
+        .html("Please enter a message")
+        .addClass("alert alert-danger");
+    } else {
+      $(".result")
+        .html(
+          `Hi, ${name}. We've recieved your message. Thanks for reaching out.`
+        )
+        .addClass("alert alert-success");
+    }
+  });
 });
