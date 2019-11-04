@@ -99,25 +99,19 @@ $(document).ready(function() {
     let name = $("#inputName").val();
     let email = $("#inputEmail").val();
     let message = $("#inputMessage").val();
+    let error = $(".result").addClass("alert alert-danger");
+    let success = $(".result").addClass("alert alert-success");
 
     if (name == "") {
-      $(".result")
-        .html("Please enter your name")
-        .addClass("alert alert-danger");
+      error.html("Please enter your name");
     } else if (email == "") {
-      $(".result")
-        .html("Please enter your email")
-        .addClass("alert alert-danger");
+      error.html("Please enter your email");
     } else if (message == "") {
-      $(".result")
-        .html("Please enter a message")
-        .addClass("alert alert-danger");
+      error.html("Please enter a message");
     } else {
-      $(".result")
-        .html(
-          `Hi, ${name}. We've recieved your message. Thanks for reaching out.`
-        )
-        .addClass("alert alert-success");
+      success.html(
+        `Hi, ${name}. We've recieved your message. Thanks for reaching out.`
+      );
     }
   });
 });
