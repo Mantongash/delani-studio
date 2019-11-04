@@ -93,4 +93,6 @@ $(document).ready(function() {
   $(".portfolio-box-8").mouseleave(function() {
     $(".description-8").hide(1000);
   });
+  // Form validation
+  $();
 });
